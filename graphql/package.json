@@ -1,0 +1,18 @@
+{
+    "name": "projeto-graphql",
+    "version": "1.0.0",
+    "description": "Exemplo de aplicação Node.js com GraphQL",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "node",
+        "graphql"
+    ],
+    "author": "Seu nome aqui",
+    "license": "MIT",
+    "dependencies": {
+        "apollo-server": "^3.12.0"
+    }
+}

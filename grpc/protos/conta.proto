@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package conta;
+
+service ContaService {
+  rpc ObterConta (ContaRequest) returns (Conta);
+  rpc AtualizarConta (AtualizarContaRequest) returns (Conta);
+}
+
+message ContaRequest {
+  int32 id = 1;
+}
+
+message AtualizarContaRequest {
+  int32 id = 1;
+  string operacao = 2;
+  double valor = 3;
+}
+
+message Conta {
+  int32 id = 1;
+  double saldo = 2;
+}
