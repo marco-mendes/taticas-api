@@ -21,14 +21,17 @@ Nos últimos anos, tivemos a chegada de mecanismos mais performáticos de RPC co
 Pontos fortes e fracos
 
 •	REST: 
-o	Pontos Fortes: Facilidade de uso, Estável e confiável, Acesso a dados complexos, Su-porte a vários formatos de dados. 
-o	Pontos Fracos: Pode ser limitado pela semântica do protocolo HTTP, Pode ser com-plexo de escalar para cenários de altíssima demanda.
+- Pontos Fortes: Facilidade de uso, Estável e confiável, Acesso a dados complexos, Su-porte a vários formatos de dados. 
+- Pontos Fracos: Pode ser limitado pela semântica do protocolo HTTP, Pode ser com-plexo de escalar para cenários de altíssima demanda.
+
 •	RPC: 
-o	Pontos Fortes: Permite a execução de procedimentos remotamente, Possibilidade de passar parâmetros para execução de métodos. 
-o	Pontos Fracos: É necessário um mecanismo de segurança para prevenir o acesso não autorizado. Pode não ser flexível o suficiente para permitir a execução de procedimen-tos complexos.
+- Pontos Fortes: Permite a execução de procedimentos remotamente, Possibilidade de passar parâmetros para execução de métodos. 
+- Pontos Fracos: É necessário um mecanismo de segurança para prevenir o acesso não autorizado. Pode não ser flexível o suficiente para permitir a execução de procedimen-tos complexos.
+
 •	GraphQL: 
-o	Pontos Fortes: Possibilidade de obter dados de várias fontes em uma única consulta, Ajuda a reduzir a quantidade de solicitações feitas ao servidor, Possibilidade de definir o tipo de dados solicitados. 
-o	Pontos Fracos: Pode haver um grande overhead na configuração. Pode ser complexo para implementar. Pode ser difícil de escalar.
+- Pontos Fortes: Possibilidade de obter dados de várias fontes em uma única consulta, Ajuda a reduzir a quantidade de solicitações feitas ao servidor, Possibilidade de definir o tipo de dados solicitados. 
+- Pontos Fracos: Pode haver um grande overhead na configuração. Pode ser complexo para implementar. Pode ser difícil de escalar.
+
 •	Web Socket: 
-o	Pontos Fortes: Permite a comunicação bidirecional entre cliente e servidor, Estável e confiável. Permite atualizações em tempo real. 
-o	Pontos Fracos: Não é projetado para passar grandes quantidades de dados, Pode ser difícil de escalar, Não é adequado para aplicações que requerem baixa latência.
+- Pontos Fortes: Permite a comunicação bidirecional entre cliente e servidor, Estável e confiável. Permite atualizações em tempo real. 
+- Pontos Fracos: Não é projetado para passar grandes quantidades de dados, Pode ser difícil de escalar, Não é adequado para aplicações que requerem baixa latência.
